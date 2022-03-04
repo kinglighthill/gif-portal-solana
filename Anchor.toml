@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.devnet]
+first_solana_project = "BKHLVt2rmFftGD8wGEC8nLnXkNutLHpfiLPu4WKxR7wg"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/kingholyhill/.config/solana/id.json"
+
+[test]
+startup_wait = 8000
+
+[scripts]
+test = "node tests/first-solana-project.js"
